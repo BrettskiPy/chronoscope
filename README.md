@@ -13,7 +13,7 @@ No specific installation is required as the tool utilizes standard Python librar
 ## Usage Examples
 
 ### Basic Usage
-To profile a simple function:
+Print the time taken to run a block of code:
 
 ```python
 def foo():
@@ -27,7 +27,7 @@ Profiler.stop_timer()
 ```
 
 ### Profiling with Decorators
-Using the `@Profiler.profile_function()` decorator:
+Use the `@Profiler.profile_function()` decorator to profile an entire function:
 
 ```python
 @Profiler.profile_function()
